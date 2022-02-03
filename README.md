@@ -11,6 +11,10 @@ Reinforcement learning (RL) is used to solve a grid-like maze comprised of 29 gr
 
 Possible actions in this grid world are moving North, East, South or West by one state. However, the actions are not deterministic. Actions only succeed with probability *p* which is given by 0.25 + 0.5 * (*y*+1)/10. In the event that the action fails (e.g. North fails), the true action taken is randomly chosen from the remaining set of possible actions (e.g. East, South or West) with equal probability. After the true action is determined, if a wall blocks the agent's path, the agent simply stays at the same state. There is a movement cost of -1 associated with each action except for movements which lead to a terminal state.
 
+An example of the learned optimal policy is shown below. The reward state is the yellow box, the penalty state is the purple box, and obstacles are marked by dark green boxes. The number in each box corresponds to the value function of the state, and the arrow represents the direction of the optimal policy for that state.
+
+![learned-policy](https://github.com/joshsia/gridworld-rl/blob/main/TD_opt.png)
+
 The discount factor for rewards, *gamma*, is given by 0.2 + 0.5 * *z*/10. The variables *x*, *y* and *z* which control the location of the reward state, the probability of an action succeeding, and the discount factor respectively, can be changed at the top of the notebook.
 
 Three different RL methods are used to find the optimal set of actions to reach the reward state:
