@@ -18,7 +18,7 @@ Three different RL methods are used to find the optimal set of actions to reach 
 2. Monte Carlo learning
 3. Temporal Difference learning
 
-The three methods are compared and discussed in the notebook.
+The three methods are compared in the [notebook](https://github.com/joshsia/gridworld-rl/blob/main/gridworld.ipynb) and the results are discussed [here](https://github.com/joshsia/gridworld-rl/blob/main/gridworld_findings.pdf).
 
 ## Usage
 
