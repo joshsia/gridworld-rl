@@ -1,6 +1,7 @@
 # gridworld-rl
 
 Author: Joshua Sia
+
 Date: 2020-10-21
 
 ## About
