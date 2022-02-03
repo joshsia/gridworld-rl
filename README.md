@@ -15,3 +15,11 @@ Three different RL methods are used to find the optimal set of actions to reach 
 3. Temporal Difference learning
 
 The three methods are compared and discussed in the notebook.
+
+## Usage
+
+To rerun the notebook and explore different parameters, clone this repository, install the dependencies listed below, and run the notebook.
+
+## Dependencies
+- numpy=1.21.2
+- matplotlib=3.4.3
