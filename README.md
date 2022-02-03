@@ -1,5 +1,8 @@
 # gridworld-rl
 
+Author: Joshua Sia
+Date: 2020-10-21
+
 ## About
 Reinforcement learning (RL) is used to solve a grid-like maze comprised of 29 grids as shown in the image below. There are two terminal states: (i) a reward state which yields +10 reward, and (ii) a penalty state which yields -100 reward. To randomise the location of the reward state, the single digit number *x* is used. The location of the reward state is given by ((*x* + 1) mod 3) + 1 (i.e. when *x*=5, the reward state is 1). The penalty state is state 11.
 
