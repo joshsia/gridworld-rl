@@ -27,3 +27,8 @@ To rerun the notebook and explore different parameters, clone this repository, i
 ## Dependencies
 - numpy=1.21.2
 - matplotlib=3.4.3
+
+
+## Credits
+
+The code to set up the grid-world was provided by Prof Aldo Faisal at Imperial College London as part of the module "Reinforcement Learning".
